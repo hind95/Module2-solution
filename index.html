@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<title>Assignement For Module 2</title>
+<head>
+<style>
+
+#div_title
+{
+  text-align: center; margin-left:25vw; margin-right: 25vw; font-weight:bold; font-size: 20px;
+}
+
+#div_container_grande {}
+#div_container1, #div_container2, #div_container3  { padding: 10px; border: 1px solid black; float: right;}
+
+#div_container1 { background-color: pink;  color: black;}
+#div_container2 { background-color: #DC143C; color: white;}
+#div_container3 { background-color: yellow; color: black;}
+#div_grid1, #div_grid2, #div_grid3 {
+    
+    background-color: silver;
+    border: 1px solid black;
+    margin-left: 1pc;
+  margin-top:10vh;
+  float: left;
+  width: 30%; 
+  margin-left; 10px;
+  padding-bottom:10px;
+  padding-left: 8px;
+}
+
+
+@media screen and (max-width: 991px){
+#div_grid1, #div_grid2 {width: 45%;}
+#div_grid3 {width:90%;
+}
+
+@media screen and (max-width: 767px){
+    #div_grid1, #div_grid2, #div_grid3 {width: 95%;}
+}
+
+
+</style>
+</head>
+<body>
+
+<div id="div_title">Our Menu</div>
+
+
+<div id="div_container_grande">
+<div id="div_grid1">
+    <div id="div_container1"> chicken</div>
+ <br>
+ <br>
+ <br>
+    Lorem ipsum dolor sit amet, consectetur adipisci elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullamco laboriosam, nisi ut aliquid ex ea commodi consequatur. Duis aute irure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+</div>
+    </div>
+
+
+<div id="div_container_grande">
+    <div id="div_grid2">
+        <div id="div_container2"> beef </div>
+ <br>
+ <br>
+ <br>
+         Lorem ipsum dolor sit amet, consectetur adipisci elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullamco laboriosam, nisi ut aliquid ex ea commodi consequatur. Duis aute irure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</div>
+</div>
+
+
+<div id="div_container_grande">
+    <div id="div_grid3">
+        <div id="div_container3"> sushi </div>
+ <br>
+ <br>
+ <br>
+        Lorem ipsum dolor sit amet, consectetur adipisci elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullamco laboriosam, nisi ut aliquid ex ea commodi consequatur. Duis aute irure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div>
+    </div>
+
+</body>
+</html>
